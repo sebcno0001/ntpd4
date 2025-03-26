@@ -1,6 +1,4 @@
-
-
-Uruchamianie aplikacji
+````Uruchamianie aplikacji````
 
 ***Lokalnie (bez Dockera)***
 Zainstaluj wymagane zależności:
@@ -18,14 +16,12 @@ docker run -p 8000:8000 fastapi-ml
 ***Za pomocą Docker Compose***
 Uruchom aplikację i bazę Redis:
 docker-compose up --build
-Konfiguracja aplikacji
 
-Zmienne środowiskowe
-Aplikacja może korzystać z:
-
+Zmienne środowiskowe:
 PORT – port serwera (domyślnie 8000)
 REDIS_HOST – adres hosta Redis
 REDIS_PORT – port Redis (domyślnie 6379)
+
 Wymagania
 Python 3.9+
 FastAPI, Uvicorn, Scikit-learn
